@@ -1,0 +1,234 @@
+
+/* .tujuan1{
+    background-color: #2A5D66!important;
+    border: none!important;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+} */
+
+.kotak-tujuan {
+    width: 100%;
+    border: #2A5D66 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#tombol-tujuan {
+    background-color: #2A5D66!important;
+    border: none!important;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+#isi-tujuan {
+    display: block; /* Konten akan disembunyikan awalnya */
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 3px #2A5D66 dashed;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.btn-petunjuk{
+    border: 3px dashed #2A5D66;
+    padding: 5px;
+    border-radius: 2px;
+    width: auto;
+}
+
+.btn-modal {
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 5px;
+    border: 4px dashed #2A5D66;
+    color: #2A5D66;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2A5D66;
+    border-color: #2A5D66;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2A5D66;
+    border-color: #2A5D66;
+}
+
+.materi{
+    border: 3px solid #2A5D66;
+    margin-top:10px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.styled-input {
+    width: 100px;
+    border: 3px solid #2A5D66;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.geo{
+    width: 100%;
+    border: 2px solid #c7c9c9;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.styled-input:focus {
+    outline: none;
+    border-color: #2A5D66;
+}
+
+.styled-input-kecil {
+    width: 50px;
+    border: 3px solid #2A5D66;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.styled-input-kecil:focus {
+    outline: none;
+    border-color: #2A5D66;
+}
+
+.cekjawaban{
+    background-color: #2A5D66;
+    color: #fff;
+    border: 1px solid #2A5D66;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cekjawaban:hover{
+    background-color: #fff;
+    color: #2A5D66;
+    border: 1px solid #2A5D66;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.kotak-teks{
+    box-sizing: border-box;
+    border: 2px dashed #2A5D66;
+    padding: 20px;
+}
+
+.kotak-penyelesaian{
+    box-sizing: border-box;
+    background: #00B8A9;
+    color: #fff;
+    padding: 10px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.rumus{
+    box-sizing: border-box;
+    padding: 10px;
+    background: #2A5D66;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    max-width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    #geogebra {
+        width: 260px;
+        height: 150px;
+    }
+
+    #scratch {
+        width: 260px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #imgmenara {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #segitiga11 {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #segitiga12 {
+        width: 200px;
+    }
+}
+
+
+.card-page {
+    display: none;
+}
+
+.card-page:active{
+    display: block;
+}
+
+.page-item.active .page-link{
+    background-color: #00B8A9;
+    border-color: #00B8A9;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+hr{
+    width: 100%;
+    color: #2A5D66;
+    border: 1px;
+}
+
+.card-drag{
+    width: 70px;
+    height: 30px;
+    border: 3px solid #2A5D66;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.card-drop{
+    width: 70px;
+    height: 30px;
+    border: 3px solid #2A5D66;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.drag-jawaban{
+    width: auto;
+    padding: 10px;
+    border: 2px dashed #2A5D66;
+}
+
